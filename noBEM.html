@@ -1,35 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEM EXERCISE</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>NO BEM CLASSNAMES</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function () {
-        $(".card").addClass("animate__animated animate__shakeX");});
-    </script>
 </head>
-
-
 <body>
-    <div class="card card--light">
+    <div class="card-light">
         <h2 class="card__h2">LIGHT CARD</h2>
         <img src="https://source.unsplash.com/1600x900/?landscape" alt="pictures of a landscape" class="card__img">
         <p class="card__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi laboriosam explicabo
             qui et accusamus rerum reiciendis aperiam laudantium possimus animi?</p>
     </div>
-    <div class="card card--dark">
+    <div class="card-dark">
         <h2 class="card__h2">DARK CARD</h2>
-        <img src="https://source.unsplash.com/1600x900/?beach" alt="pictures of beaches" class="card__img">
+        <img src="https://source.unsplash.com/1600x900/?mountains" alt="pictures of beaches" class="card__img">
         <p class="card__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate quam sit
             eius adipisci itaque quasi delectus maiores velit aperiam!</p>
     </div>
-
 </body>
-
 </html>
